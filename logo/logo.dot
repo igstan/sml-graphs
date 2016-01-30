@@ -1,0 +1,35 @@
+digraph {
+  rankdir = LR
+
+  edge [
+    color     = "#7F7F7F"
+    arrowsize = 0.4
+  ]
+
+  node [
+    color     = "#7F7F7F"
+    width     = 0.6
+    height    = 0.5
+    fixedsize = true
+    fontsize  = 14
+    fontname  = "droid sans mono"
+  ]
+
+  S -> M -> L
+
+  node [
+    style     = "filled"
+    fillcolor = "#ded8e0"
+  ]
+
+  G -> R -> A -> P -> H -> X
+  X [label = "S"]
+
+  edge [constraint=false]
+
+  S -> G
+  M -> A
+  M -> G
+  M -> R
+  L -> A
+}
