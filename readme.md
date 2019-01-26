@@ -1,1 +1,3 @@
-<center>![sml-graphs](logo/logo.png)</center>
+<p align="center"> 
+  <img src="logo/logo.svg">
+</p>
